@@ -4,8 +4,8 @@ import re
 import altair as alt
 
 # -------------------- Setup --------------------
-st.set_page_config(page_title="Real Estate BI", layout="wide")
-st.title("🏡 Real Estate Listings BI Dashboard")
+st.set_page_config(page_title="Sahel PropertyFinder Listings", layout="wide")
+st.title("🏡 Sahel PropertyFinder Listings")
 
 def format_price_millions(val):
     if pd.isnull(val): return "-"
